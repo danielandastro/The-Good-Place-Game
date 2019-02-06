@@ -31,7 +31,8 @@ namespace The_Good_Place_Game
             else
                 return false;
         }
-        public static bool caughtByShawn(){
+        public static bool caughtByShawn()
+        {
             if (tortureLevel < -1)
                 return true;
             else
@@ -75,6 +76,8 @@ namespace The_Good_Place_Game
                         Scoring.turns++;
                         if (caughtByShawn())
                             Console.WriteLine("Sorry, you were caught by Shawn for being a bad demon, you were retired.");
+                        Console.ReadKey();
+                        return;
 
                     }
                     else
