@@ -31,9 +31,18 @@ namespace The_Good_Place_Game
             else
                 return false;
         }
-        public static class Dialog {
+        public static bool caughtByShawn()
+        {
+            if (tortureLevel < 0)
+                return true;
+            else
+                return false;
+        }
+        public static class Dialog
+        {
 
-            public static string option(){
+            public static string option()
+            {
                 var possibilties = new string[10];
                 possibilties[0] = "Chidi complains about an ethics dillema" + Environment.NewLine + "Do you help him, or intentionally confuse him";
                 possibilties[1] = "Tahani's party was a failure, because nobody showed up" + Environment.NewLine + "Do you make ammends and reschedule, or leave her to her sadness";
@@ -48,22 +57,25 @@ namespace The_Good_Place_Game
                 var r = new Random();
                 return possibilties[r.Next(0, 6)];
             }
-            
+
         }
         class Program
         {
             static void Main(string[] args)
             {
-                Console.WriteLine("Welcome Micheal.");
-                while (true){
-                   
+                Console.WriteLine("Welcome Michael.");
+                while (true)
+                {
+
                     Console.WriteLine(Dialog.option());
-                    var response = Console.Read();
-                    if (response.Equals('1'))
+                    var response = Console.ReadLine();
+                    if (response.Equals("1"))
                     {
                         Scoring.ChangeTorturePoints(false);
                         Scoring.TrackChoices(true);
                         Scoring.turns++;
+                        if (caughtByShawn())
+                            Console.WriteLine("Sorry, you were caught by Shawn for being a bad demon, you were retired.");
 
                     }
                     else
