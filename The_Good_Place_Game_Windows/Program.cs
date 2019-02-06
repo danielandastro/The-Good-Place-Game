@@ -32,7 +32,7 @@ namespace The_Good_Place_Game
                 return false;
         }
         public static bool caughtByShawn(){
-            if (tortureLevel < 0)
+            if (tortureLevel < -1)
                 return true;
             else
                 return false;
