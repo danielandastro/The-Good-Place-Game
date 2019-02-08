@@ -85,7 +85,9 @@ namespace The_Good_Place_Game
                 Console.WriteLine("1) Play the classic mode, or 2) play the new experimental story");
                 var input = Console.ReadLine();
                 if (input.Equals("2"))
-                    NewMode();
+                { NewMode();
+                    return;
+            }
                 Console.WriteLine("Welcome Michael.");
                 while (true)
                 {
