@@ -1,0 +1,14 @@
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/bin/Release/netcoreapp2.1/osx.10.10-x64/libhostpolicy.dylib
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/bin/Release/netcoreapp2.1/osx.10.10-x64/libhostfxr.dylib
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/bin/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/bin/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.deps.json
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/bin/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.runtimeconfig.json
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/bin/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.runtimeconfig.dev.json
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/bin/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.dll
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/bin/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.pdb
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/obj/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.csprojAssemblyReference.cache
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/obj/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.csproj.CoreCompileInputs.cache
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/obj/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.AssemblyInfoInputs.cache
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/obj/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.AssemblyInfo.cs
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/obj/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.dll
+/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game/obj/Release/netcoreapp2.1/osx.10.10-x64/The_Good_Place_Game.pdb
