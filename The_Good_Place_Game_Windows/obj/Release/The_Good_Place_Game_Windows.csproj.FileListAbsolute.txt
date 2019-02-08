@@ -1,4 +1,0 @@
-/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game_Windows/bin/Release/The_Good_Place_Game_Windows.exe
-/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game_Windows/obj/Release/The_Good_Place_Game_Windows.csproj.CoreCompileInputs.cache
-/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game_Windows/obj/Release/The_Good_Place_Game_Windows.exe
-/Users/danielshroff/Projects/The_Good_Place_Game/The_Good_Place_Game_Windows/obj/Release/The_Good_Place_Game_Windows.csprojAssemblyReference.cache

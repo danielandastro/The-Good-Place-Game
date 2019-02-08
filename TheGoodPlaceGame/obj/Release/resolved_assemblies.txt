@@ -1,7 +1,0 @@
-/Users/danielshroff/Projects/The_Good_Place_Game/TheGoodPlaceGame/obj/Release/android/assets/TheGoodPlaceGame.dll
-/Users/danielshroff/Projects/The_Good_Place_Game/TheGoodPlaceGame/obj/Release/android/assets/Java.Interop.dll
-/Users/danielshroff/Projects/The_Good_Place_Game/TheGoodPlaceGame/obj/Release/android/assets/Mono.Android.dll
-/Users/danielshroff/Projects/The_Good_Place_Game/TheGoodPlaceGame/obj/Release/android/assets/mscorlib.dll
-/Users/danielshroff/Projects/The_Good_Place_Game/TheGoodPlaceGame/obj/Release/android/assets/System.Core.dll
-/Users/danielshroff/Projects/The_Good_Place_Game/TheGoodPlaceGame/obj/Release/android/assets/System.dll
-/Users/danielshroff/Projects/The_Good_Place_Game/TheGoodPlaceGame/obj/Release/android/assets/System.Runtime.Serialization.dll

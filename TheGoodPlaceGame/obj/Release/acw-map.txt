@@ -1,3 +1,0 @@
-TheGoodPlaceGame.MainActivity, TheGoodPlaceGame;md5e3b1fc988d072e9ef6dce5ed43e9b0f4.MainActivity
-TheGoodPlaceGame.MainActivity;md5e3b1fc988d072e9ef6dce5ed43e9b0f4.MainActivity
-thegoodplacegame.MainActivity;md5e3b1fc988d072e9ef6dce5ed43e9b0f4.MainActivity
