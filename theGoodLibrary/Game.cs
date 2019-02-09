@@ -1,17 +1,17 @@
 ﻿using System;
 
-namespace The_Good_Place_Game
+namespace The_Good_Place_Library
 {
     public class Scoring
     {
         public static int tortureLevel, safetyChoices, tortureChoices, turns;
-        static void ChangeTorturePoints(bool add)
+        public static void ChangeTorturePoints(bool add)
         {
             if (add)
                 tortureLevel++;
             else tortureLevel--;
         }
-        static void TrackChoices(bool wasChoiceSafe)
+        public static void TrackChoices(bool wasChoiceSafe)
         {
             if (wasChoiceSafe)
 
@@ -21,7 +21,7 @@ namespace The_Good_Place_Game
                 tortureChoices++;
         }
 
-        private static bool isCritical()
+        public static bool isCritical()
         {
             var r = new Random();
             if (r.Next(1, 5) < Scoring.tortureLevel)
@@ -38,6 +38,7 @@ namespace The_Good_Place_Game
             else
                 return false;
         }
+    }
         public static class Dialog
         {
 
@@ -59,10 +60,39 @@ namespace The_Good_Place_Game
             }
 
         }
-        class Game
+
+        public static class Game
         {
+            public static string ver = "0.4";
+            public static void NewMode()
+            {
+                Console.WriteLine("Eleanor Shellstrop finds herself in a waiting room, with the words Welcome!Everything Is Fine. written on the wall. "
+                              + Environment.NewLine + "She then enters a room where a man named Michael awaits her.");
+                Console.WriteLine("He informs her that she is dead, killed after a line of shopping carts in the parking lot of a supermarket pushed her into the oncoming path of a truck which was advertising marital aid pills, " +
+                                  Environment.NewLine + "and the space they are in is a Heaven-like utopia called The Good Place." + Environment.NewLine);
+                Console.WriteLine("Also, every person in the Good Place has a soulmate, a person to spend their eternal life together." + Environment.NewLine);
+                Console.WriteLine("Your soulmate, Eleanor, is an ethics professor, his name is Chidi" + Environment.NewLine);
+                Console.WriteLine("You are shown to your house, it is a modern, clown-themed, tailored to your preferences" + Environment.NewLine);
+                Console.WriteLine("You utterly hate clowns, do you; 1) Complain to Micheal, or 2) Do nothing" + Environment.NewLine);
+                var input = Console.ReadLine();
+                if (input.Equals("1"))
+                {
+                    Console.WriteLine("Micheal: This is very strange, the system must have been wrong, but the system is never wrong...");
+                }
+                else
+                    Console.WriteLine("Smart, don't give him a reason to doubt you");
+                Console.ReadLine();
+                return;
+            }
             public static void Start()
             {
+                Console.WriteLine("1) Play the classic mode, or 2) play the new experimental story");
+                var input = Console.ReadLine();
+                if (input.Equals("2"))
+                {
+                    NewMode();
+                    return;
+                }
                 Console.WriteLine("Welcome Michael.");
                 while (true)
                 {
@@ -74,7 +104,7 @@ namespace The_Good_Place_Game
                         Scoring.ChangeTorturePoints(false);
                         Scoring.TrackChoices(true);
                         Scoring.turns++;
-                        if (caughtByShawn())
+                        if (Scoring.caughtByShawn())
                         {
                             Console.WriteLine("Sorry, you were caught by Shawn for being a bad demon, you were retired.");
                             Console.ReadKey();
@@ -82,12 +112,14 @@ namespace The_Good_Place_Game
                         }
 
                     }
+                    else if (response.Equals("why"))
+                        Console.WriteLine("Because I'm a naughty b**ch");
                     else
                     {
                         Scoring.ChangeTorturePoints(true);
                         Scoring.TrackChoices(false);
                         Scoring.turns++;
-                        if (isCritical())
+                    if (Scoring.isCritical())
                         {
                             Console.WriteLine("Sorry, they figured it out, " + Environment.NewLine + " you had " + Scoring.safetyChoices + " safe choices and " + Scoring.tortureChoices + " torture choices");
                             Console.WriteLine("You survived " + Scoring.turns + " turns, with " + Scoring.tortureLevel + " torture points");
@@ -100,4 +132,3 @@ namespace The_Good_Place_Game
             }
         }
     }
-}
